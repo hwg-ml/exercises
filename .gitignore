@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 exercises/*
+lectures/*
 
 .DS_Store
 

@@ -75,10 +75,54 @@ Notes:
 python -m ipykernel install --user --name=hwg-ml --display-name "Python (hwg-ml)"
 ```
 
-## Working on the Exercises
-I recommend you copy the unziped folder with the exercise into the `exercises` folder in the repository. This way, you can keep all your work organized in one place.
+## Using the CLI Tool
 
-You will find all exercises on the [course page](https://h4hn.de/courses/c29331-machine-learning).
+This repository includes a command-line tool (`hwg-ml`) for downloading course materials from the course website.
+
+### Installing the CLI
+
+After setting up your environment, install the CLI tool:
+
+**If using UV:**
+```bash
+source .venv/bin/activate
+uv pip install -e .
+```
+
+**If using Conda:**
+```bash
+conda activate hwg-ml
+pip install -e .
+```
+
+The `hwg-ml` command will be available when your environment is activated.
+
+## Working on the Exercises
+You will find all exercises on the [course page](https://h4hn.de/courses/c29331-machine-learning). You can either manually copy the unziped folder with the exercise into the `exercises` folder in the repository or you can use the CLI to download them automatically.
+
+### Download Exercises
+
+Download all exercises for the course:
+
+```bash
+hwg-ml exercises update # or
+uv run hwg-ml exercises update
+```
+
+**Options:**
+- `--output` / `-o`: Specify output directory (default: `exercises/`)
+
+### Download Lecture Slides
+
+Download all lecture PDF slides:
+
+```bash
+hwg-ml lectures update # or
+uv run hwg-ml lectures update
+```
+
+**Options:**
+- `--output` / `-o`: Specify output directory (default: `lectures/`)
 
 ## Opening Jupyter Notebooks in VS Code
 
