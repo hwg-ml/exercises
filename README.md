@@ -105,7 +105,8 @@ You will find all exercises on the [course page](https://h4hn.de/courses/c29331-
 Download all exercises for the course:
 
 ```bash
-hwg-ml exercises update # or
+hwg-ml exercises update 
+# or without an active environment
 uv run hwg-ml exercises update
 ```
 
@@ -117,7 +118,8 @@ uv run hwg-ml exercises update
 Download all lecture PDF slides:
 
 ```bash
-hwg-ml lectures update # or
+hwg-ml lectures update 
+# or without an active environment
 uv run hwg-ml lectures update
 ```
 
