@@ -35,9 +35,7 @@ cd hwg-ml
 ```
 
 ## Setting Up the Environment
-You can use either UV (recommended for this course) or Anaconda/Conda. Pick the workflow you prefer — both will let you open and run the notebooks in `exercises/`.
 
-### Using UV (recommended)
 Create a new Python environment and install the pinned dependencies from `pyproject.toml` and `uv.lock` with:
 
 ```bash
@@ -49,53 +47,17 @@ UV will create a local virtual environment (usually at `.venv/` inside the proje
 - Let VS Code pick the `.venv` interpreter (see the next section), or
 - Activate manually in a terminal: `source .venv/bin/activate` (macOS / Linux) and then run notebooks or commands.
 
-### Using Anaconda / Conda
-If you prefer Anaconda/Miniconda, use a Conda environment instead. Example steps:
-
-1. [Install Anaconda or Miniconda](https://www.anaconda.com/docs/getting-started/getting-started) from the official site if you don't have it already.
-2. Create and activate a new environment:
-
-```bash
-conda create -n hwg-ml python=3.13 -y
-conda activate hwg-ml
-```
-
-3. Install the project (and its dependencies) from the repository root. This will read `pyproject.toml` and install the depdendencies:
-
-```bash
-pip install -e .
-```
-
-
-Notes:
-
-- Conda environments are usually listed by VS Code automatically. If the env doesn't appear, restart VS Code or run the following command to register the kernel manually: 
-
-```bash
-python -m ipykernel install --user --name=hwg-ml --display-name "Python (hwg-ml)"
-```
-
-## Using the CLI Tool
+## Using the CLI
 
 This repository includes a command-line tool (`hwg-ml`) for downloading course materials from the course website.
 
-### Installing the CLI
-
-After setting up your environment, install the CLI tool:
-
-**If using UV:**
-```bash
-source .venv/bin/activate
-uv pip install -e .
+You can run the cli either with an activated environment or using uv:
+```sh
+# with activated environment
+hwg-ml
+# without activated environment
+uv run hwg-ml
 ```
-
-**If using Conda:**
-```bash
-conda activate hwg-ml
-pip install -e .
-```
-
-The `hwg-ml` command will be available when your environment is activated.
 
 ## Working on the Exercises
 You will find all exercises on the [course page](https://h4hn.de/courses/c29331-machine-learning). You can either manually copy the unziped folder with the exercise into the `exercises` folder in the repository or you can use the CLI to download them automatically.
@@ -158,5 +120,3 @@ If you have GitHub Copilot enabled in VS Code, I recommend you turn it off. Ulti
 2. Type "Copilot: Disable Completions" and select the option to disable GitHub Copilot
 
 You may re-enable it later by following the same steps and selecting "Copilot: Enable Completions".
-
-
