@@ -49,7 +49,7 @@ UV will create a local virtual environment (usually at `.venv/` inside the proje
 
 ## Using the CLI
 
-This repository includes a command-line tool (`hwg-ml`) for downloading course materials from the course website.
+This repository includes a [command-line-interface (`hwg-ml`)](https://github.com/hwg-ml/cli) for downloading course materials from the course website.
 
 You can run the cli either with an activated environment or using uv:
 ```sh
