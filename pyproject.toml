@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "click>=8.3.1",
+    "hwg-ml-cli>=0.1.5",
     "imbalanced-learn>=0.14.0",
     "matplotlib>=3.10.6",
     "notebook>=7.4.5",
