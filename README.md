@@ -26,12 +26,12 @@ We will be using [UV](https://docs.astral.sh/uv/) to manage our Python environme
 Clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/ItsZiroy/hwg-ml.git
+git clone https://github.com/hwg-ml/exercises.git hwg-ml-exercises
 ```
 Navigate into the cloned directory:
 
 ```bash
-cd hwg-ml
+cd hwg-ml-exercises
 ```
 
 ## Setting Up the Environment
