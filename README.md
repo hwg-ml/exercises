@@ -14,7 +14,7 @@ highly recommend the [Missing Semester MIT Course](https://missing.csail.mit.edu
 
 ![](/docs/terminal.png)
 
-You will need to work with your terminal to get these tools installed. The terminal is a mighty and powerful tool, we will only use it sparsely. Please make yourself at least familiar with the commands from [this blog](https://mrkaluzny.com/blog/terminal-101-getting-started-with-terminal/). The MIT course includes a [lecture dedicated to the terminal](https://missing.csail.mit.edu/2026/course-shell/) if you want to learn more.
+You will need to work with your terminal to get these tools installed. The terminal is a mighty and powerful tool, but we will only use it sparsely. Please make yourself at least familiar with the commands from [this blog](https://mrkaluzny.com/blog/terminal-101-getting-started-with-terminal/). The MIT course includes a [lecture dedicated to the terminal](https://missing.csail.mit.edu/2026/course-shell/) if you want to learn more.
 
 ### Git
 
