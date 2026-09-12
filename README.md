@@ -10,7 +10,7 @@ to be in the standard tool kit of a developer. However, universities typically
 spend little time on teaching these fundamentals. I can therfore only
 highly recommend the [Missing Semester MIT Course](https://missing.csail.mit.edu) which tries to fill this gap as we won't have time to discuss these topics in depth.
 
-## Terminal
+### Terminal
 
 ![](/docs/terminal.png)
 
