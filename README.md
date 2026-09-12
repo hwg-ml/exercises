@@ -23,7 +23,7 @@ Make sure you have [Git](https://git-scm.com/) installed on your machine. You ca
 ![git](/docs/git.png)
 ### Visual Studio Code
 
-This guided repo assumes that you are working with [Visual Studio Code](https://code.visualstudio.com/). If you haven't installed it yet, please download and install it from the official website. It will also work with other IDEs, but I can only provide support for VS Code.
+We will be working with [Visual Studio Code](https://code.visualstudio.com/) as our code editor. If you haven't installed it yet, please download and install it from the official website. It will also work with other IDEs, but I can only provide support for VS Code.
 
 ### UV
 
