@@ -25,6 +25,8 @@ Make sure you have [Git](https://git-scm.com/) installed on your machine. You ca
 
 We will be working with [Visual Studio Code](https://code.visualstudio.com/) as our code editor. If you haven't installed it yet, please download and install it from the official website. It will also work with other IDEs, but I can only provide support for VS Code.
 
+Please also install the [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) extension.
+
 ### UV
 
 We will be using [UV](https://docs.astral.sh/uv/) to manage our python environment. Please download and install it on your device using the official [installation guide](https://docs.astral.sh/uv/getting-started/installation/).
@@ -60,17 +62,18 @@ UV will create a local virtual environment (usually at `.venv/` inside the proje
 ## Opening Jupyter Notebooks in VS Code
 
 1. Open Visual Studio Code.
-2. Install the Python extension for VS Code if you haven't already. You can find it in the Extensions view, search for "Python", and install the one published by Microsoft.
-3. Open the cloned repository folder in VS Code by selecting `File > Open Folder` and navigating to the `hwg-ml-exercises` directory.
-4. Copy over the exercise files and open the (`hello_world.ipynb`) in the repository.
+2. Open the cloned repository folder in VS Code by selecting `File > Open Folder` and navigating to the `hwg-ml-exercises` directory.
+3. Install the recommended extensions. You find them in the extensions tab under recommended. If not, install the Python and Jupyter extensions by searching.
+   ![Recommended Extensions](./docs/recommended-extensions.png)
 
 ### Selecting the Python Interpreter
 
-1. On the Top Right Corner of the VS Code window, click on the Python kernel selector. ![Select Interpreter](./docs/select-kernel.png)
-2. Click on "Python Environment" ![Select Python Environment](./docs/select-python-environment.png)
-3. Select the interpreter that corresponds to the environment you created:
-
-- Choose the `.venv/bin/python` interpreter inside the project folder (the images show this flow). ![Select UV Environment](./docs/choose-venv.png)
+1. Open a Jupyter notebook such as `hello_world.ipynb` which is in the root directory of the repository.
+2. On the Top Right Corner of the VS Code window, click on the Python kernel selector. ![Select Interpreter](./docs/select-kernel.png)
+3. Click on "Python Environment" ![Select Python Environment](./docs/select-python-environment.png)
+4. Select the interpreter that corresponds to the environment you created:
+ Choose the `.venv/bin/python` interpreter inside the project folder (the images show this flow).
+ ![Select UV Environment](./docs/choose-venv.png)
 
 If the environment doesn't show up in the list, restart VS Code or open a terminal from VS Code with the env activated and try again.
 
@@ -124,11 +127,11 @@ uv run hwg-ml lectures update
 
 
    
-## Turning Off Copilot
+## Turning Off AI
 
-If you have GitHub Copilot enabled in VS Code, I recommend you turn it off. Ultimately it is you decision, but if you leave it on, you will not actually learn anything.
+As also mentioned during the lecture, the usage of AI is up to you but I really recommend turning it off during your learning process as much as possible. If you want to disable AI,
 
-1. Open the Command Palette by pressing `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS).
-2. Type "Copilot: Disable Completions" and select the option to disable GitHub Copilot
-
-You may re-enable it later by following the same steps and selecting "Copilot: Enable Completions".
+1. Open the Command Palette by pressing `Ctrl + ,` (or `Cmd + ,` on macOS).
+2. Search for `disable ai` and set the checkmark
+   
+![Disable AI](./docs/disable-ai.png)
