@@ -1,8 +1,8 @@
-# C29331 Machine Learning
+# Machine Learning
 
 ![Header](./docs/header.png)
 
-Welcome to the C29331 Machine Learning repository! This project is aimed to assist you in working on the exercises. 
+Welcome to the Machine Learning repository! This project is aimed to assist you in working on the exercises. 
 
 ## Prerequisites
 We will be working with many tools throughout this lecture that are considered
@@ -85,7 +85,7 @@ You can now run the cells in the Jupyter Notebook by clicking the "Run" button o
 
 ## Working on the Exercises
 
-You will find all exercises on the [course page](https://h4hn.de/courses/c29331-machine-learning). You can either manually copy the unziped folder with the exercise into the `exercises` folder in the repository or you can use the CLI to download them automatically.
+You will find all exercises on the [course page](https://h4hn.de/courses/machine-learning). You can either manually copy the unziped folder with the exercise into the `exercises` folder in the repository or you can use the CLI to download them automatically.
 
 ### Using the CLI
 
