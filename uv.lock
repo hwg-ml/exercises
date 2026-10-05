@@ -468,7 +468,21 @@ wheels = [
 ]
 
 [[package]]
-name = "hwg-ml"
+name = "hwg-ml-cli"
+version = "0.1.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "click" },
+    { name = "requests" },
+    { name = "tqdm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d2/ce/36f69e3b49c0b8c88a6741c898cbd8038eae73cd830d662f7ef9d6905bc5/hwg_ml_cli-0.1.5.tar.gz", hash = "sha256:e2db18b993cb72b851a623ad9752523a07cf553abbe3b97e04d9ae702cee0dfc", size = 4001, upload-time = "2026-08-30T16:39:47.58Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/68/4c/3c80cf5d2d88ae8680c74af15e57a293783897a41f84820dafcedc5f07ac/hwg_ml_cli-0.1.5-py3-none-any.whl", hash = "sha256:6b9aed1fa5f419466aab0a78ed80ddce5013f8f3a9e96659dc565b806212a5c6", size = 6246, upload-time = "2026-08-30T16:39:46.303Z" },
+]
+
+[[package]]
+name = "hwg-ml-exercises"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
@@ -498,20 +512,6 @@ requires-dist = [
     { name = "requests", specifier = ">=2.32.5" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "xlrd", specifier = ">=2.0.2" },
-]
-
-[[package]]
-name = "hwg-ml-cli"
-version = "0.1.5"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "click" },
-    { name = "requests" },
-    { name = "tqdm" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/d2/ce/36f69e3b49c0b8c88a6741c898cbd8038eae73cd830d662f7ef9d6905bc5/hwg_ml_cli-0.1.5.tar.gz", hash = "sha256:e2db18b993cb72b851a623ad9752523a07cf553abbe3b97e04d9ae702cee0dfc", size = 4001, upload-time = "2026-08-30T16:39:47.58Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/68/4c/3c80cf5d2d88ae8680c74af15e57a293783897a41f84820dafcedc5f07ac/hwg_ml_cli-0.1.5-py3-none-any.whl", hash = "sha256:6b9aed1fa5f419466aab0a78ed80ddce5013f8f3a9e96659dc565b806212a5c6", size = 6246, upload-time = "2026-08-30T16:39:46.303Z" },
 ]
 
 [[package]]
